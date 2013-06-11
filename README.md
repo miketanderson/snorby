@@ -90,7 +90,7 @@ Once the pull has competed successfully run the Snorby update rake task:
 
 You can open the rails console at anytime and interact with the Snorby environment. Below are a few helpful commands that may be useful:
 
- * Open the rails console by typing `rails c` in the Snorby root directory
+ * Open the rails console by typing `bundle exec rails console production` in the Snorby root directory
  * You should never really need to run the below commands. They are all available within the
 	Snorby interface but documented here just in case.
 
