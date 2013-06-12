@@ -335,10 +335,10 @@ module Snorby
             map_value.each do |x|
 
               if column == :classification && value.to_i == 0
-                if operator == :is
-                  operator = :notnull
-                else
+                if operator == :is || operator == :isnull
                   operator = :isnull
+                else
+                  operator = :notnull
                 end
                 value = "NULL"
               end
@@ -387,7 +387,13 @@ module Snorby
           else
 
             if column == :classification && value.to_i == 0
+<<<<<<< HEAD
               if operator == :is
+=======
+              if operator == :is || operator == :isnull
+                operator = :isnull
+              else
+>>>>>>> upstream/master
                 operator = :notnull
               else
                 operator = :isnull
