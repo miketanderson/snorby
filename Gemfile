@@ -21,7 +21,7 @@ gem 'jruby-rack-worker',           :platforms => :jruby
 # gem 'glassfish', :platforms => :jruby
 
 # DateTime Patches
-gem 'home_run',                    :require => 'date', :platforms => :mri
+#gem 'home_run',                    :require => 'date', :platforms => :mri
 
 gem 'activesupport',               RAILS_VERSION, :require => 'active_support'
 gem 'actionpack',                  RAILS_VERSION, :require => 'action_pack'
