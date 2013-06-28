@@ -190,7 +190,6 @@ GEM
     geoip (1.1.2)
     highline (1.6.16)
     hike (1.2.1)
-    home_run (1.0.9)
     i18n (0.6.4)
     jammit (0.5.4)
       closure-compiler (>= 0.1.0)
@@ -367,7 +366,6 @@ DEPENDENCIES
   env
   ezprint!
   geoip (~> 1.1.1)
-  home_run
   jammit (~> 0.5.4)
   jquery-rails
   jruby-openssl
