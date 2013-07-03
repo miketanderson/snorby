@@ -16,6 +16,10 @@ production:
   authentication_mode: database
   # uncomment to set time zone to time zone of box from /usr/share/zoneinfo, e.g. "America/Cancun"
   # time_zone: 'UTC'
+  # Set user_reports_control to true if you want to control sending reports on a per-user basis
+  # Or set it to false if you want to control sending reports on a global basis
+  user_reports_control: false
+  
 
 #
 # Only Use For Development
